@@ -1,4 +1,4 @@
-#Pacman
+# Pacman
 Here you'll find my Pacman game. Some features:
 * Randomly generated board
 * Score keeping
