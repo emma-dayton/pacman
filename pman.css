@@ -1,0 +1,79 @@
+
+body{
+	background-color: black;
+}
+.row div{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+
+.brick{
+	background-color: blue;
+}
+
+.coin{
+	background: url("Bitcoin.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 75%;
+}
+
+.pacman_down{
+	background: url("pacman_down.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.pacman_up{
+	background: url("pacman_up.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.pacman_left{
+	background: url("pacman_left.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.pacman_right{
+	background: url("pacman_right.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.empty{
+}
+
+.cherry{
+	background: url("BitConnect.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+#scorebox{
+	display: inline-block;
+	height: 40px;
+	width: 200px;
+	border: solid 5px red;
+	color: red;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+#bitconnect_bonus{
+	display: inline;
+	height: 40px;
+	width: auto;
+}
+
+#bitconnect_bonus img{
+	height: 100%
+	width: auto;
+}
